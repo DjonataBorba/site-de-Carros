@@ -214,8 +214,8 @@ section {
             content: '';
             position: absolute;
             height: 200px;
-            width: 99%;
-            top: 49%;
+            width: 115%;
+            top: 490%;
             border-top: 1px solid #fff;
         }
     }
@@ -538,7 +538,7 @@ section {
                 position: absolute;
                 height: 200px;
                 width: 99%;
-                top: 49%;
+                top: 490%;
                 border-top: 1px solid #fff;
             }
         }
