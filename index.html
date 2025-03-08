@@ -19,13 +19,47 @@
 <body>
     <header>
         <img src="./img/logo.png" alt="logo-fp">
-        <nav>
+        <nav class="navegar">
             <ul>
-                <li>Home</li>
-                <li>Carros</li>
-                <li>Fale Conosco</li>
+                <li class="link">Inicio</li>
+                <li class="link">Carros</li>
+                <li class="link">Fale Conosco</li>
             </ul>
         </nav>
+
+        <div class="icons">
+            <img width="30" height="30" src="https://img.icons8.com/ios-filled/20/ffffff/shopping-cart.png"
+                alt="shopping-cart" onclick="aparecerFormulario()"  class="shopping-cart"/>
+        </div>
+
+        <div class="btn-abrir-menu" id="btn-menu">
+            <svg xmlns="http://www.w3.org/2000/svg" width="35" height="35" fill="currentColor" class="bi bi-list"
+                viewBox="0 0 16 16">
+                <path fill-rule="evenodd"
+                    d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5m0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5" />
+            </svg>
+        </div>
+
+        <div class="menu-mobile" id="menu-mobile">
+            <div class="btn-fechar">
+                <svg xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor" class="bi bi-x-lg"
+                    viewBox="0 0 16 16">
+                    <path
+                        d="M2.146 2.854a.5.5 0 1 1 .708-.708L8 7.293l5.146-5.147a.5.5 0 0 1 .708.708L8.707 8l5.147 5.146a.5.5 0 0 1-.708.708L8 8.707l-5.146 5.147a.5.5 0 0 1-.708-.708L7.293 8z" />
+                </svg>
+            </div>
+
+            <nav>
+                <a href="#home">Inicio</a>
+                <a href="#products">Produtos</a>
+                <a href="#review">lançamentos</a>
+                <a href="#address">Endereço</a>
+            </nav>
+
+        </div>
+
+        <div class="overlay-menu" id="overlay-menu"></div>
+
     </header>
 
     <section class="container">
@@ -35,15 +69,16 @@
                     <img src="./img/1.png">
                 </div>
                 <div class="content">
-                    <p class="car-information">
-                        Único Dono
-                    </p>
+                    
                     <h2>
                         911 Turbo Top
                     </h2>
+                    <p class="car-information">
+                        Único Dono
+                    </p>
                     <p class="descripition">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                        Voluptas rem quasi, explicabo quidem voluptatibus ea nam earum 
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                        Voluptas rem quasi, explicabo quidem voluptatibus ea nam earum
                         ipsa nulla sed a impedit exercitationem commodi eaque quis deserunt laudantium officia esse.
                     </p>
                     <button class="information">
@@ -57,14 +92,17 @@
                     <img src="./img/2.png">
                 </div>
                 <div class="content">
-                    <p class="car-information">
-                        Conversível
-                    </p>
+                    
                     <h2>
                         Ferrari
                     </h2>
+                    <p class="car-information">
+                        Conversível
+                    </p>
                     <p class="descripition">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem quasi, explicabo quidem voluptatibus ea nam earum ipsa nulla sed a impedit exercitationem commodi eaque quis deserunt laudantium officia esse.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem quasi, explicabo quidem
+                        voluptatibus ea nam earum ipsa nulla sed a impedit exercitationem commodi eaque quis deserunt
+                        laudantium officia esse.
                     </p>
                     <button class="information">
                         Saiba Mais
@@ -77,14 +115,17 @@
                     <img src="./img/3.png">
                 </div>
                 <div class="content">
-                    <p class="car-information">
-                        2015
-                    </p>
+                   
                     <h2>
                         Lamborghini
                     </h2>
+                    <p class="car-information">
+                        2015
+                    </p>
                     <p class="descripition">
-                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem quasi, explicabo quidem voluptatibus ea nam earum ipsa nulla sed a impedit exercitationem commodi eaque quis deserunt laudantium officia esse.
+                        Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptas rem quasi, explicabo quidem
+                        voluptatibus ea nam earum ipsa nulla sed a impedit exercitationem commodi eaque quis deserunt
+                        laudantium officia esse.
                     </p>
                     <button class="information">
                         Saiba Mais
